@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- DIOMEDES DIAZ - Recomender</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href=".\img\acordion.ico">
+</head>
+<body>
+    <div class="container">
+        <h2>🎵 DIOMEDES DIAZ RECOMENDER</h2>
+        <p>Descubre qué canción del cacique de la junta escuchar según tu estado de ánimo</p>
+        <img class = "pictureDiome" src ="./img/diome.jpg" weidth = 250>
+        <hr>
+        <form id="formulario">
+            <div>
+                <label for="nombre">Tu nombre</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+            <div>
+                <label for="edad">Tu edad</label>
+                <input type="number" id="edad" placeholder="Escribe tu edad">
+            </div>
+            <div>
+                <label for="animo">¿Cómo te sientes?</label>
+                <select id="animo" name="animo">
+                    <option value="">-- Selecciona un estado --</option>
+                    <option value="triste">Triste</option>
+                    <option value="feliz">Feliz</option>
+                    <option value="enamorado">Enamorado</option>
+                    <option value="dolido">Dolido</option>
+                    <option value="inspirado">Inspirado</option>
+                    <option value="nostalgico">Nostálgico</option>
+                    <option value="especial">Estoy de cumpleaños</option>
+                </select>
+            </div>
+            <button type="submit" id="boton">Recomiendame</button>
+        </form>
+
+        <hr>
+
+        <div class="resultado-container">
+            <span class="resultado-label">Tu canción recomendada:</span>
+            <span id="recomendacion">-</span>
+            <a id="enlaceYouTube" href="#" target="_blank">🎵 Escuchar en YouTube</a>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
