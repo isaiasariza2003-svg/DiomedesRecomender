@@ -18,13 +18,13 @@ export function animoConvertidor(a) {
     if (a = "triste") {
         AnimoNum = 8
     } else if(a = "feliz"){
-        AnimoNum = 11
+        AnimoNum = 12
     } else if(a = "enamorado"){
         AnimoNum = 13
     } else if(a = "dolido"){
         AnimoNum = 12
     }  else if(a = "inspirado"){
-        AnimoNum = 10
+        AnimoNum = 13
     }  else if(a = "nostalgico"){
         AnimoNum = 10
     } else if(a = "especial"){
