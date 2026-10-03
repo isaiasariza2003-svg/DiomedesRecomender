@@ -62,6 +62,10 @@ export const canciones = [
     { "id": 61, "cancion": "Tu cumpleaños", "animo": "especial", "num": 1, "hipervinculo": "https://www.youtube.com/watch?v=YJ84U_30GRM&list=RDYJ84U_30GRM&start_radio=1" },
     { "id": 62, "cancion": "26 de mayo", "animo": "Diomedes", "num": 2, "hipervinculo": "https://www.youtube.com/watch?v=o1M0v2twO0w&list=RDo1M0v2twO0w&start_radio=1" },
     { "id": 63, "cancion": "De mi propia raza", "animo": "inspirado", "num": 10, "hipervinculo": "https://www.youtube.com/watch?v=pjq6jZ25n58&list=RDpjq6jZ25n58&start_radio=1" }
+    { "id": 64, "cancion": "Las notas de Juancho", "animo": "feliz", "num": 12, "hipervinculo": "https://www.youtube.com/watch?v=3qT2J4FOGd8&list=RD3qT2J4FOGd8&start_radio=1"},
+    { "id": 65, "cancion": "Canto celestial", "animo": "inspirado", "num": 11, "hipervinculo": "https://www.youtube.com/watch?v=uoqNrd6tcpc&list=RDuoqNrd6tcpc&start_radio=1"},
+    { "id": 66, "cancion": "El hermano Elias", "animo": "inspirado", "num": 12, "hipervinculo": "https://www.youtube.com/watch?v=dDeKHDS0328&list=RDdDeKHDS0328&start_radio=1"},
+    { "id": 67, "cancion": "Cabeza de hacha", "animo": "inspirado", "num": 13, "hipervinculo": "https://www.youtube.com/watch?v=NEst9S7FLfU&list=RDNEst9S7FLfU&start_radio=1"},
 
 ]
 
