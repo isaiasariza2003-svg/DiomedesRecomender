@@ -24,7 +24,7 @@ boton.addEventListener("click", (evento) => { // ACCION DEL BOTON PARA EJECUTAR
     animo = animoVar;
     
     const codeNom = Funciones.NombreCode(nombre); //devuelve el codigo del nombre
-    const moduloAnimo = Funciones.animoConvertidor(animo); //devuelve la max canciones del tipo animo 
+    const moduloAnimo = FCanciones.cantCanciones(FCanciones.canciones,animo); //devuelve la max canciones del tipo animo 
     const edadNum = Number(edad);
     const moduloCancion = Funciones.varAleatorio(1,moduloAnimo);
     let e;
@@ -42,7 +42,7 @@ boton.addEventListener("click", (evento) => { // ACCION DEL BOTON PARA EJECUTAR
     enlaceYouTube.href = hipervinculo;
     enlaceYouTube.style.display = "inline-block";
 
-    console.log(nombre,edad,animo,moduloCancion,moduloAnimo,numeroCancion,cancion)
+    console.log(moduloAnimo)
 });
 
 

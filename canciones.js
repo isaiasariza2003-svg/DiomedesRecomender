@@ -65,7 +65,7 @@ export const canciones = [
     { "id": 64, "cancion": "Las notas de Juancho", "animo": "feliz", "num": 12, "hipervinculo": "https://www.youtube.com/watch?v=3qT2J4FOGd8&list=RD3qT2J4FOGd8&start_radio=1"},
     { "id": 65, "cancion": "Canto celestial", "animo": "inspirado", "num": 11, "hipervinculo": "https://www.youtube.com/watch?v=uoqNrd6tcpc&list=RDuoqNrd6tcpc&start_radio=1"},
     { "id": 66, "cancion": "El hermano Elias", "animo": "inspirado", "num": 12, "hipervinculo": "https://www.youtube.com/watch?v=dDeKHDS0328&list=RDdDeKHDS0328&start_radio=1"},
-    { "id": 67, "cancion": "Cabeza de hacha", "animo": "inspirado", "num": 13, "hipervinculo": "https://www.youtube.com/watch?v=NEst9S7FLfU&list=RDNEst9S7FLfU&start_radio=1"},
+    { "id": 67, "cancion": "Cabeza de hacha", "animo": "inspirado", "num": 13, "hipervinculo": "https://www.youtube.com/watch?v=NEst9S7FLfU&list=RDNEst9S7FLfU&start_radio=1"}
 
 ]
 
@@ -75,4 +75,14 @@ export function buscarCancion(animo, num) {
 
 export function buscarURL(cancion) {
     return canciones.find(c => c.cancion === cancion)?.hipervinculo || "No encontrada";
+}
+
+export function cantCanciones(canciones,generoCancion){
+    let total = 0;
+    for (let i = 0; i < canciones.length; i++){
+        if (canciones[i].animo == generoCancion) {
+            total++
+        }
+    }
+    return total;
 }
